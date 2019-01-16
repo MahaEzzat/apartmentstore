@@ -1,0 +1,6 @@
+<%- if devise_mapping.omniauthable? %>
+  <%- resource_class.omniauth_providers.each do |provider| %>
+    <%= link_to image_tag("#{OmniAuth::Utils.camelize(provider)}.jpg", width: 50, height: 50, ALIGN: "left", :alt => "facebook feed"), omniauth_authorize_path(resource_name, provider) %><br />
+  <% end -%>
+<% end -%>
+

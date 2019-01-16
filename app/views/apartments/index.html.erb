@@ -1,0 +1,62 @@
+<p id="notice"><%= notice %></p>
+
+<%# Logo %>
+<%= image_tag("logo.jpg", width: 50, height: 50, :alt => "logo feed") %>
+
+<%# Heading %>
+<h1>Apartments</h1>
+
+<%# Login %>
+<%= link_to 'sign in',  new_user_registration_path, method: :get %>
+
+<%# Logout %>
+<%= link_to 'sign out',  destroy_user_session_path, method: :delete %>
+
+<%# Search %>
+<%= form_tag apartments_path, :method => 'get' do %>
+  <%= text_field_tag :search, params[:search] %>
+  <%= submit_tag "Search" %>
+<% end %>
+
+
+<%# Database Table %>
+<table>
+  <thead>
+    <tr>
+      <th>Destination</th>
+      <th>Owner name</th>
+      <th>Mobile number</th>
+      <th>Url</th>
+      <th>Number of rooms</th>
+      <th>Number of bathrooms</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @apartments.each do |apartment| %>
+      <tr>
+        <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
+        <td><center><%= apartment.Destination %></td>
+        <td><center><%= apartment.Owner_Name %></td>
+        <td><center><%= apartment.Mobile_Number %></td>
+        <td><center><%= link_to(apartment.URL ,"https://yallasa7el.com/rooms/"+apartment.URL, target: "_blank") %></td>
+        <td><center><%= apartment.Number_of_Rooms %></td>
+        <td><center><%= apartment.Number_of_Bathrooms %></td>
+        <td><center><%= link_to 'Show', apartment %></td>
+        <td><center><%= link_to 'Edit', edit_apartment_path(apartment) %></td>
+        <td><center><%= image_tag(apartment.URL+".jpg", width: 136, height: 67, :alt => apartment.URL+" feed") %></td>>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%# Creating new apartment %>
+<%= link_to 'New Apartment', new_apartment_path %>
+
+
+
+
+
