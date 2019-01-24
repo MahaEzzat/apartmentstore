@@ -7,7 +7,21 @@ Codes: </br>
   Available here: https://github.com/MahaEzzat/apartmentstore </br>
 
 Libraries: </br>
-<pre> OmniAuth  </pre></br>
+<pre> omniauth-facebook
+ omniauth-google-oauth2
+ devise
+ activerecord-session_store
+ bootsnap
+ mysql2
+ puma
+ sass-rails
+ uglifier
+ duktape
+ coffee-rails
+ turbolinks
+ jbuilder
+
+ </pre></br>
 
 Frameworks: </br>
 <pre> Rails
