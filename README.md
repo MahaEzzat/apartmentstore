@@ -1,27 +1,27 @@
 Languages used: </br>
-  Ruby
-  Html
-  Scss
+  Ruby </br>
+  Html </br>
+  Scss </br>
 
-Codes:
-  Available here: https://github.com/MahaEzzat/apartmentstore
+Codes: </br>
+  Available here: https://github.com/MahaEzzat/apartmentstore </br>
 
-Libraries:
-  OmniAuth 
+Libraries: </br>
+  OmniAuth  </br>
 
-Frameworks:
-  Rails
-  Mysql
-  https://developers.facebook.com/
-  https://console.developers.google.com/apis/library
+Frameworks: </br>
+  Rails </br>
+  Mysql </br>
+  https://developers.facebook.com/ </br>
+  https://console.developers.google.com/apis/library </br>
 
-Video:
-  https://youtu.be/zzGRz8tBTK0
+Video: </br>
+  https://youtu.be/zzGRz8tBTK0 </br>
   
-References:
-https://scotch.io/tutorials/integrating-social-login-in-a-ruby-on-rails-application#toc-writing-migrations
-https://www.digitalocean.com/community/tutorials/how-to-configure-devise-and-omniauth-for-your-rails-application
-https://www.tutorialspoint.com/ruby
-https://www.youtube.com/watch?v=GY7Ps8fqGdc
-https://www.youtube.com/watch?v=eY1HCqe9MBc
+References: </br>
+https://scotch.io/tutorials/integrating-social-login-in-a-ruby-on-rails-application#toc-writing-migrations </br>
+https://www.digitalocean.com/community/tutorials/how-to-configure-devise-and-omniauth-for-your-rails-application </br>
+https://www.tutorialspoint.com/ruby </br>
+https://www.youtube.com/watch?v=GY7Ps8fqGdc </br>
+https://www.youtube.com/watch?v=eY1HCqe9MBc </br>
 https://www.youtube.com/watch?v=yPu6qV5byu4
