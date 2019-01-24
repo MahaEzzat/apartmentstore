@@ -1,5 +1,5 @@
 Languages used: </br>
-  </pre> Ruby </br>
+  <pre>  Ruby </pre> </br> 
   Html </br>
   Scss </br>
 
