@@ -1,7 +1,7 @@
 Languages used:
-  Ruby
-  Html
-  Scss
+  *Ruby
+  *Html
+  *Scss
 
 Codes:
   Available here: https://github.com/MahaEzzat/apartmentstore
