@@ -7,13 +7,13 @@ Codes: </br>
   Available here: https://github.com/MahaEzzat/apartmentstore </br>
 
 Libraries: </br>
-  OmniAuth  </br>
+<pre> OmniAuth  </pre></br>
 
 Frameworks: </br>
-  Rails </br>
-  Mysql </br>
-  https://developers.facebook.com/ </br>
-  https://console.developers.google.com/apis/library </br>
+<pre> Rails
+ Mysql
+ https://developers.facebook.com/
+ https://console.developers.google.com/apis/library </pre></br>
 
 Video: </br>
   https://youtu.be/zzGRz8tBTK0 </br>
